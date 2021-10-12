@@ -1,0 +1,13 @@
+body {
+    background-color: blue;
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+#bocsi {
+    font-size: 3em;
+    color: red;
+}

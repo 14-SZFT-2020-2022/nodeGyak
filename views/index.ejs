@@ -1,0 +1,17 @@
+<%- include('./partials/head') %>
+
+<body>
+    <h1>Homepage</h1>
+    <p>Valami szöveg</p>
+    <ul>
+        <% emberek.forEach(ember => { %>
+            <li>
+                Név: <%= ember.nev %>, 
+                kor <%= ember.kor %></li>
+                kép: <img src="images/macska.jpg">
+        <% }) %>
+    </ul>
+    <a href="/about">About</a>
+    <a href="/books">Books</a>
+</body>
+</html>
